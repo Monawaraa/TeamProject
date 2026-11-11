@@ -1,8 +1,8 @@
 import pytest
 
-from csv_reader import read_csv_rows
+from teamproject.csv_reader import read_csv_rows
 
-'''CSV READER testen'''
+'''-----------CSV READER testen------------------'''
 path = r"tests\testdata\form_csv.csv"
 def test_fromread_csv():
     assert read_csv_rows(path) == [{
@@ -24,3 +24,4 @@ def test_nonfromread_csv():
         read_csv_rows(path1)
         read_csv_rows(path2)
         read_csv_rows(path3)
+
