@@ -40,7 +40,11 @@ Tagen ist
 - das Ergebnis darf nicht von der Reihenfolge der CSV-Zeilen abhängen,
 - für dieses Praktikum gilt n >= 0 ; bei n == 0 erhält jede Person eine leere Nachbarliste
 ### Testing
-
+- find_age_neighbors() n-clostest Nachbarn sind aufsteigend sortiert
+- find_age_neighbors() gleicher Abstand --> kleinste ID ist zuerst
+- find_age_neighbors() Return: Schlüssel-ID ist niemals in clostest-Nachbar-Liste enthalten
+- maximal 10, wenn kein n angegeben
+- wenn weniger als n in CSV --> alle ausßer Schlüssel sind in Liste
 ## Gleicher Geburstag
 ### Anforderungen
 - "Gleicher Geburtstag" bedeutet: gleicher Monat und gleicher Tag, unabhängig vom Geburtsjahr
@@ -72,5 +76,5 @@ Tagen ist
 - find_birthday_groups returned dict{tuple[int,int]:list[int]}
 - tuple[int,int] ist der Geburtstag
 ### Testing
-
-
+- find_age_neighbors
+- find_age_neighbors
