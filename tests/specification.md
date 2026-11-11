@@ -22,6 +22,8 @@
 - Das Datum muss tatsächlich existieren
 - ValueError bspw. bei "29.02.2001" und "31.02.2001"
 - ValueError bei nicht unterstütztes Format
+- frühestes Datum ist 01.01.1900
+- ValueError bei früheren als frühestes Datum
 ### Testing
 
 ## Altersähnlichkeit
