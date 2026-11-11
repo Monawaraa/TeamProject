@@ -14,13 +14,14 @@
 - ungültige Pflichtdaten führen zu ValueError
 - die exakte Formulierung der Fehlermeldung ist nicht vorgegeben
 ### Testing
-
+- ValueError bei falschen, fehlenden oder zu vielen Spalten
 ## Datumsformate
 ### Anforderungen
 - Unterstützte Formate: *YYYY-MM-DD* und *DD.MM.YYYY*
 - Im deutschen Format dürfen Tag und Monat ein- oder zweistellig sein
 - Das Datum muss tatsächlich existieren
 - ValueError bspw. bei "29.02.2001" und "31.02.2001"
+- ValueError bei nicht unterstütztes Format
 ### Testing
 
 ## Altersähnlichkeit
