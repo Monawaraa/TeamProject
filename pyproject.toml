@@ -7,7 +7,9 @@ authors = [
     { name = "Mona", email = "monawara.satari@study.hs-duesseldorf.de" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "datetime>=6.0",
+]
 
 [project.scripts]
 teamproject = "teamproject:main"
